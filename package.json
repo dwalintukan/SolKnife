@@ -1,0 +1,31 @@
+{
+  "name": "solknife",
+  "version": "0.0.1",
+  "description": "Solidity helper utils",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "web3": "^1.0.0-beta.35"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwalintukan/solknife.git"
+  },
+  "keywords": [
+    "solidity",
+    "utils"
+  ],
+  "author": "Deric Walintukan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwalintukan/solknife/issues"
+  },
+  "homepage": "https://github.com/dwalintukan/solknife#readme"
+}
