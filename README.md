@@ -1,2 +1,2 @@
 # SolKnife
-Solidity helper library
+The Solidity Swiss army knife!
