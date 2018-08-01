@@ -1,13 +1,9 @@
-import Block from './lib/block';
-import BigNumber from './lib/bignumber';
-import Formatter from './lib/formatter';
+const Block = require('./lib/block');
+const BigNumber = require('./lib/bignumber');
+const Formatter = require('./lib/formatter');
 
-class SolKnife {
-  constructor() {
-    this.block = new Block();
-    this.bigNumber = new BigNumber();
-    this.formatter = new Formatter();
-  }
-}
-
-modules.exports = new SolKnife();
+module.exports = {
+  SKBlock: Block,
+  SKBigNum: BigNumber,
+  SKFormatter: Formatter,
+};
