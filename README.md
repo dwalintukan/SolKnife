@@ -1,2 +1,1 @@
-# SolKnife
-The Solidity Swiss army knife!
+Moved to https://gitlab.com/dwalintukan/solknife
